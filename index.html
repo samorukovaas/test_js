@@ -1,0 +1,26 @@
+
+<html>
+<head>
+	<title>Test Script</title>
+	<meta charset="utf-8" />
+
+</head>
+<body>
+<div class="content-size">
+<h1>Случайные люди</h1>
+
+<h2>Профессии</h2>
+
+Профессия: <input type="text" placeholder="Название профессии" id="prof_name" /> <input type="text" placeholder="Обязанности" id="prof_desc" /> <button onclick="add_prof();" id="add_pfro">добавить</button><br /><br />
+
+<table id="profs"></table>
+
+<h2>Люди</h2>
+<input class="form-control" type="text" placeholder="Фамилия/Имя" id="search-text" onkeyup="tableSearch()">
+<button class="button" id="button"><span>Добавить</span></button>
+<table id="authors" onkeyup="tableSearch()"></table>
+</div>
+<script type="text/javascript" src="js/script.js" charset="UTF-8"></script>
+
+</body>
+</html>
